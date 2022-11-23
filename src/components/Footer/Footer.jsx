@@ -22,7 +22,7 @@ const Footer = () => {
             <div className="menu-footer">
               <ul className="menu">
                 <li className="menu-item ">
-                  <Link to="#">About CinemyPlex</Link>
+                  <Link to="#">About PlayScroll</Link>
                 </li>
                 <li id="menu-item-72" className="menu-item">
                   <Link to="#">Contact Us</Link>

@@ -8,7 +8,7 @@ import Genre from "../../components/Genres/Genre";
 import useGenre from "../../components/Genres/UseGenre";
 
 const TvSeries = () => {
-  const [treadingContent, setTreadingContent] = useState([]);
+  const [trendingContent, setTrendingContent] = useState([]);
   const [page, setPage] = useState(1);
   const [numOfPages, setNumOfPages] = useState();
   const [searchTerm, setSearchTerm] = useState("");
@@ -26,7 +26,7 @@ const TvSeries = () => {
         https://api.themoviedb.org/3/discover/tv?api_key=${process.env.REACT_APP_API_KEY}&page=${page}&sort_by=popularity.desc&with_genres=${genreforURL}
         `
       );
-      setTreadingContent(data.results);
+      setTrendingContent(data.results);
       setIsLoading(true);
       setNumOfPages(100);
 
@@ -39,7 +39,7 @@ const TvSeries = () => {
     if (searchTerm) {
       const SEARCH_API = `https://api.themoviedb.org/3/search/tv?api_key=${process.env.REACT_APP_API_KEY}&query=${searchTerm}&page=${page}&sort_by=popularity.desc`;
       const { data } = await axios.get(SEARCH_API);
-      setTreadingContent(data.results);
+      setTrendingContent(data.results);
       setNumOfPages(data.total_pages);
       setIsLoading(true);
     }
@@ -54,7 +54,7 @@ const TvSeries = () => {
       fetchMovieApi();
     }
     return () => {
-      setTreadingContent(); //clean up
+      setTrendingContent(); //clean up
     };
     // eslint-disable-next-line
   }, [page, isLoading, genreforURL]);
@@ -81,7 +81,7 @@ const TvSeries = () => {
               media="tv"
               setFilterGenre={setFilterGenre}
               filterGenre={filterGenre}
-              setTreadingContent={setTreadingContent}
+              setTreadingContent={setTrendingContent}
               setPage={setPage}
               numOfpages={numOfPages}
               page={page}
@@ -102,8 +102,8 @@ const TvSeries = () => {
         </div>
 
         <div className="ListContent">
-          {isLoading && treadingContent ? (
-            treadingContent.map((n) => (
+          {isLoading && trendingContent ? (
+            trendingContent.map((n) => (
               <SingleData key={n.id} {...n} mediaType="tv" />
             ))
           ) : (

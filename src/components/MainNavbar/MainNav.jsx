@@ -6,6 +6,8 @@ import HomeIcon from "../../images/home-icon.svg";
 import WhatshotIcon from "@mui/icons-material/Whatshot";
 import MovieIcon from "../../images/movie-icon.svg";
 import TheatersIcon from "../../images/series-icon.svg";
+import MovieRecom from "../../images/moviee.svg";
+import MusicIcon from "../../images/music.svg";
 import $ from "jquery";
 
 $(function () {
@@ -82,9 +84,9 @@ const MainNav = () => {
             </li>
 
             <li className="nav-item nav__link">
-              <Link className="nav-link" to="/all-series">
+          
                 <img
-                  src={TheatersIcon}
+                  src={MovieRecom}
                   style={{
                     fontSize: "17px",
                     marginBottom: "5px",
@@ -92,14 +94,13 @@ const MainNav = () => {
                   }}
                   alt=""
                   />
-                  <a href="https://siabang35-recomsystem-main-b4envl.streamlit.app/">Recommendation Movies</a> 
+                  <a href="https://siabang35-recomsystem-main-b4envl.streamlit.app">Recommend</a> 
                 
-                  </Link>
                   </li>
                   <li className="nav-item nav__link">
-              <Link className="nav-link" to="/all-series">
+             
                 <img
-                  src={TheatersIcon}
+                  src={MusicIcon}
                   style={{
                     fontSize: "17px",
                     marginBottom: "5px",
@@ -107,10 +108,10 @@ const MainNav = () => {
                   }}
                   alt=""
                   />
-                  <a href="https://siabang35-spotify-recommend-app-xfxjtf.streamlit.app/">Music</a> 
+                  <a href="https://siabang35-spotify-recommend-app-xfxjtf.streamlit.app">Music</a> 
                 
-                  </Link>
-                  </li>
+                </li>
+               
 
             {/* <li className="nav-item">
               <Link className="nav-link" to="/not">
