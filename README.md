@@ -21,7 +21,7 @@ Check out a live demo and try it for yourself: [demo](https://cinemy-movie-app.n
   ## Run these Commands:
  These instructions will get you a copy of the project up and running on your local machine for development and testing purposes.
 ### Step 1:Clone the repository
-     git clone https://github.com/tech-jamara/React-Movie-App.git
+     git clone https://github.com/siabang35/Movie-Music.git
 ### step 2:Navigate to the clone 
      cd your_path/React-Movie-App 
 #### Step 3: Install Node.js dependencies:
@@ -38,7 +38,7 @@ Check out a live demo and try it for yourself: [demo](https://cinemy-movie-app.n
  ##
  MIT License
 
-Copyright (c) 2022 James Waweru
+Copyright (c) 2022 Seiyū Ops
 
 
 <!-- <div> 
