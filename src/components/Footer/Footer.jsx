@@ -10,7 +10,7 @@ const Footer = () => {
           <div className="col-fot1">
             <Heading />
             <div className="footer__details">
-              <p>Cinema Movies and Tv Series</p>
+              <p>Cinema Movies and Music Recommendation</p>
               <p>Seiyu Ops, Indonesia</p>
               <p>
                 call Us: <span>(+62) xxxxxxx</span>

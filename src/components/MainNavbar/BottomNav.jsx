@@ -33,7 +33,7 @@ export default function BottomNav() {
   const history = useHistory();
   useEffect(() => {
     if (value === "home") history.push("/");
-    else if (value === "tread") history.push("/treading");
+    else if (value === "tread") history.push("/trending");
     else if (value === "movies") history.push("/all-movies");
     else if (value === "series") history.push("/all-series");
     // eslint-disable-next-line
@@ -69,7 +69,7 @@ export default function BottomNav() {
         />
         <BottomNavigationAction
           className="BottomNavIcon"
-          label="Treading"
+          label="Trending"
           icon={<WhatshotIcon />}
           color="primary"
           value="tread"

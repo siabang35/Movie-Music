@@ -63,7 +63,7 @@ const TvSeries = () => {
     <>
       <main className="all__series">
         <div className="my__main">
-          <div className="TreadingHome">
+          <div className="TrendingHome">
             <h3> {genreTitle && genreTitle.name} TV series:</h3>
           </div>
           <LocalSearch
@@ -81,7 +81,7 @@ const TvSeries = () => {
               media="tv"
               setFilterGenre={setFilterGenre}
               filterGenre={filterGenre}
-              setTreadingContent={setTrendingContent}
+              setTrendingContent={setTrendingContent}
               setPage={setPage}
               numOfpages={numOfPages}
               page={page}

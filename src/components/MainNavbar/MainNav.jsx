@@ -119,16 +119,16 @@ const MainNav = () => {
               </Link>
             </li> */}
           </ul>
-
           <div className="all__right">
             <div className="btn-login">
               <Link to="/login">
-                <button className=" login-btn">login</button>
+                <button className=" login-btn">Seiyū Ops</button>
               </Link>
             </div>
+          
           </div>
         </div>
-      </nav>
+       </nav>
     </>
   );
 };

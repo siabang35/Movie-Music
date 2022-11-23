@@ -11,7 +11,7 @@ const LastFooter = () => {
         <div className="container2 ">
           <span>
             © 2022 SeiyuOps. All Rights Reserved. Designed by{" "}
-            <a href="https://Gopal-kingdom.siabang35.repl.co">Seiyu Ops</a>.
+            <a href="https://Gopal-kingdom.siabang35.repl.co">Seiyū Ops</a>.
           </span>
           <h6 href="w" className="scroll-to-top">
             <span id="toTop">Back to top &#8593;</span>

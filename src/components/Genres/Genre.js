@@ -10,8 +10,8 @@ const Genre = ({
   setPage,
   genreTitle,
   setGenreTitle,
-  setTreadingContent,
-  treadingContent,
+  setTrendingContent,
+  trendingContent,
   handleRedirect,
 }) => {
   const [getGenre, setGetGenre] = useState([]);

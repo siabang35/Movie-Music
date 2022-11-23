@@ -82,7 +82,7 @@ const Home = () => {
           <div style={{ marginTop: "-10px" }} className="bg__home">
             <Navbar />
           </div>
-          <div className="TreadingHome3 pt-4">
+          <div className="TrendingHome3 pt-4">
             <div className="title__home">
               <div className="btn__home">
                 <h6>
@@ -105,7 +105,7 @@ const Home = () => {
             </div>
           </div>
           <hr />
-          <div className="TreadingHome3">
+          <div className="TrendingHome3">
             <div className="title__home">
               <div className="btn__home">
                 <h6>
@@ -127,7 +127,7 @@ const Home = () => {
             </div>
           </div>
           <hr />
-          <div className="TreadingHome3">
+          <div className="TrendingHome3">
             <div className="title__home">
               <div className="btn__home" style={{ width: "160px" }}>
                 <h6>

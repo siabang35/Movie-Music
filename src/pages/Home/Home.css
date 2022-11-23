@@ -1,7 +1,7 @@
-.TreadingHome {
+.TrendingHome {
   padding: 0px 20px;
 }
-.TreadingHome h3 {
+.TrendingHome h3 {
   font-family: "Poppins", sans-serif;
   text-transform: uppercase;
   letter-spacing: 5px;
@@ -166,7 +166,7 @@ main button {
     width: 90% !important;
     margin: 10px !important;
   }
-  .TreadingHome h3 {
+  .TrendingHome h3 {
     letter-spacing: 5px;
     font-size: 1.2rem;
     color: #abb7c4;
