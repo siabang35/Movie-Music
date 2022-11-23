@@ -7,6 +7,7 @@ import WhatshotIcon from "@mui/icons-material/Whatshot";
 import MovieIcon from "@mui/icons-material/Movie";
 import TheatersIcon from "@mui/icons-material/Theaters";
 import HomeIcon from "@mui/icons-material/Home";
+import MovieRecom from "../../images/icons8.png";
 import { useHistory } from "react-router-dom";
 import { styled } from "@mui/material/styles";
 
@@ -36,6 +37,7 @@ export default function BottomNav() {
     else if (value === "tread") history.push("/trending");
     else if (value === "movies") history.push("/all-movies");
     else if (value === "series") history.push("/all-series");
+   
     // eslint-disable-next-line
   }, [value, history]);
 
@@ -85,6 +87,7 @@ export default function BottomNav() {
           value="series"
         />
       </BottomNavigation>
+      
     </Box>
   );
 }

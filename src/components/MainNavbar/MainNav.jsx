@@ -6,8 +6,8 @@ import HomeIcon from "../../images/home-icon.svg";
 import WhatshotIcon from "@mui/icons-material/Whatshot";
 import MovieIcon from "../../images/movie-icon.svg";
 import TheatersIcon from "../../images/series-icon.svg";
-import MovieRecom from "../../images/moviee.svg";
-import MusicIcon from "../../images/music.svg";
+import MovieRecom from "../../images/icons8.png";
+import MusicIcon from "../../images/spotify.png";
 import $ from "jquery";
 
 $(function () {
