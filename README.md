@@ -14,7 +14,7 @@ Lihat demo langsung dan coba sendiri: [demo](https://seiyuops.web.app/)
 <!-- # ScreenShots -->
 
 ## Halaman Awal
-   <kbd><img src="https://drive.google.com/uc?id=1fEpBRkFQvX3zhUDGflPHDEq7e_j8AZWP"/></kbd>
+   <kbd><img src="https://drive.google.com/file/d/1SQ-WZpWodxWkkSwv35wdzLOFted0W0dk/view?usp=sharing"/></kbd>
  
   ## Jalankan perintah berikut:
  Instruksi ini akan memberi Anda salinan proyek dan berjalan di mesin lokal Anda untuk tujuan pengembangan dan pengujian.
