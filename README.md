@@ -14,7 +14,7 @@ Lihat demo langsung dan coba sendiri: [demo](https://seiyuops.web.app/)
 <!-- # ScreenShots -->
 
 ## Halaman Awal
-   <kbd><img src="https://drive.google.com/uc?id=1fEpBRkFQvX3zhUDGflPHDEq7e_j8AZWP"/></kbd>
+   <kbd><img src="./public/home-screen.png"></kbd>
  
   ## Jalankan perintah berikut:
  Instruksi ini akan memberi Anda salinan proyek dan berjalan di mesin lokal Anda untuk tujuan pengembangan dan pengujian.
@@ -30,10 +30,10 @@ Lihat demo langsung dan coba sendiri: [demo](https://seiyuops.web.app/)
      npm  start  
 
 ## Halaman Rekomendasi Movie
- <kbd><img src="https://drive.google.com/uc?id=14xckC8Zbrvz2rUuHkh084pNZVnoarz-J"/></kbd>
+ <kbd><img src="./public/recom-movie.png"/></kbd>
 
 ## Halaman Rekomendasi Music
- <kbd><img src="https://drive.google.com/uc?id=14xckC8Zbrvz2rUuHkh084pNZVnoarz-J"/></kbd>
+ <kbd><img src="./public/music-recom.png"/></kbd>
 
    ##
 Copyright (c) 2022 Seiyū Ops
