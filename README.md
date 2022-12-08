@@ -3,9 +3,9 @@
 
 Aplikasi Film Sederhana menggunakan React JS, memungkinkan pengguna untuk mencari dan memfilter film yang mereka inginkan
 
-Untuk pembuatan UI, HTML5 dan CSS3 dan material-UI digunakan
+Untuk pembuatan UI, HTML5 dan CSS3 dan material-UI digunakan ini adalah aplikasi web responsif untuk dilihat di Mobile dan Desktop.
 
-Ini adalah aplikasi web responsif untuk dilihat di Mobile dan Desktop.
+Selain itu juga terdapat aplikasi yang sudah di deploy ke aplikasi mobile baik untuk Android maupun IOS.
 
 ## Demo
 
