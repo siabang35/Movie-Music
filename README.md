@@ -15,7 +15,7 @@ Lihat demo langsung dan coba sendiri: [demo](https://seiyuops.web.app/)
 
 ## Halaman Awal
    <kbd><img src="./public/home-screen.png"></kbd>
- 
+   <kbd><img src="./public/ios_home.jpg"/></kbd>
   ## Jalankan perintah berikut:
  Instruksi ini akan memberi Anda salinan proyek dan berjalan di mesin lokal Anda untuk tujuan pengembangan dan pengujian.
 ### Langkah 1: clone the repository
@@ -31,11 +31,11 @@ Lihat demo langsung dan coba sendiri: [demo](https://seiyuops.web.app/)
 
 ## Halaman Rekomendasi Movie
  <kbd><img src="./public/recom-movie.png"/></kbd>
- <kbd><img src="./public/ios_home.jpg"/></kbd>
+ <kbd><img src="./public/ios_recom.jpg"/></kbd>
 
 ## Halaman Rekomendasi Music
  <kbd><img src="./public/music-recom.png"/></kbd>
-
+ <kbd><img src="./public/ios_music.jpg"/></kbd>
    ##
 Copyright (c) 2022 Seiyū Ops
 
