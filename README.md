@@ -31,6 +31,7 @@ Lihat demo langsung dan coba sendiri: [demo](https://seiyuops.web.app/)
 
 ## Halaman Rekomendasi Movie
  <kbd><img src="./public/recom-movie.png"/></kbd>
+ <kbd><img src="./public/ios_home.jpg"/></kbd>
 
 ## Halaman Rekomendasi Music
  <kbd><img src="./public/music-recom.png"/></kbd>
